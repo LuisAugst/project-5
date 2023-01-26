@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px){
+    .logo{
+        width: 90px;
+        padding-top: 20px;
+    }
+
+    .language-btn{
+        margin-top: 20px;
+        width: 108px;
+    }
+
+    .language-btn img{
+        margin-left: 35px;
+    }
+
+    .btn{
+        font-size: 0.8;
+    }
+
+    .header{
+        background-size: 992px;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+}
