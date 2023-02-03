@@ -97,7 +97,7 @@ nav button{
     width: 90vw;
     height: 6.7vh;
     margin-top: 8px;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 2px;
     color: black;
     background-color: white;
@@ -114,15 +114,48 @@ nav button{
 
 .feature{
     background-color: black;
-    background-size: contain;
+    background-size: cover;
     color: white;
-    width: 80vw;
-    height: 100px;
+    border-top: 8px solid rgb(35, 35, 35);
+    
+    width: 100vw;
+    height: 60vh;
+    
 }
 
 #img1{
-    width: 90vw;
+    width: 95vw;
     padding-left: 20px;
+}
+
+.text2 label{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(-32px);
+    margin-left: 10px;
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.text2 input:focus ~ label, .text2 input:valid ~ label{
+    transform: translateY(-43px);
+    font-size: 10px;
+}
+
+.btn2>button{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    position: absolute;
+    left: 46%;
+    top: 56%;
+    margin-left: -35px;
+    color: white;
+    background-color: red;
+    border: 0;
+    width: 120px;
+    height: 40px;
 }
 
 
