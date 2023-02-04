@@ -112,20 +112,19 @@ nav button{
     outline-color: rgb(0, 106, 255);
 }
 
-.feature{
-    background-color: black;
-    background-size: cover;
+.btn2>button{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    position: absolute;
+    left: 46%;
+    top: 56%;
+    margin-left: -35px;
     color: white;
-    border-top: 8px solid rgb(35, 35, 35);
-    
-    width: 100vw;
-    height: 60vh;
-    
-}
-
-#img1{
-    width: 95vw;
-    padding-left: 20px;
+    background-color: red;
+    border: 0;
+    width: 120px;
+    height: 40px;
 }
 
 .text2 label{
@@ -143,20 +142,43 @@ nav button{
     font-size: 10px;
 }
 
-.btn2>button{
-    font-family: sans-serif;
-    font-size: 1em;
-    font-weight: 500;
-    position: absolute;
-    left: 46%;
-    top: 56%;
-    margin-left: -35px;
+.feature{
+    background-color: black;
+    background-size: contain;
     color: white;
-    background-color: red;
-    border: 0;
-    width: 120px;
-    height: 40px;
+    border-top: 8px solid rgb(35, 35, 35);
+    transform: translateY(-185px);
+    width: 100vw;
+    height: 60vh;
+    
 }
+
+.feature>h1{
+    padding-top: 45px;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.feature>h3{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+#img1{
+    width: 95vw;
+    height: 280px;
+    padding-left: 20px;
+    
+    
+}
+
+
+
+
+
 
 
 
