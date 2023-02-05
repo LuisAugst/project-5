@@ -48,6 +48,12 @@ nav button{
     cursor: pointer;
 }
 
+img{
+border: 0;
+height: auto;
+max-width: 100%;
+}
+
 .language-btn{
     display: inline-flex;
     align-items: center;
@@ -148,32 +154,109 @@ nav button{
     color: white;
     border-top: 8px solid rgb(35, 35, 35);
     transform: translateY(-185px);
+    padding: 50px 5%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 80px;
     width: 100vw;
-    height: 60vh;
-    
+    height: 60vh;   
 }
 
-.feature>h1{
-    padding-top: 45px;
+.feature>h1{   
     font-size: 1.5em;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 20px;  
 }
 
 .feature>h3{
     text-align: center;
     font-size: 1.1em;
     font-weight: 200;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
 }
 
-#img1{
-    width: 95vw;
-    height: 280px;
-    padding-left: 20px;
-    
+.img>#img1{
+    transform: translateY(-60px);
+}
+
+.img>#img2{
+    transform: translateY(-15px);
+}
+
+.img>#img3{
+    transform: translateY(-15px);
+}
+
+.feature2{
+    background-color: black;
+    background-size: contain;
+    color: white;
+    border-top: 8px solid rgb(35, 35, 35);
+    transform: translateY(-185px);
+    padding: 50px 5%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+    width: 100vw;
+    height: 60vh;   
+}
+
+.feature2>h1{   
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;  
+}
+
+.feature2>h3{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 200;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.feature3{
+    background-color: black;
+    background-size: contain;
+    color: white;
+    border-top: 8px solid rgb(35, 35, 35);
+    transform: translateY(-185px);
+    padding: 50px 5%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 120px;
+    width: 100vw;
+    height: 60vh;   
+}
+
+.feature3>h1{   
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;  
+}
+
+.feature3>h3{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 200;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.feature4{
     
 }
+
+
+
+
 
 
 
