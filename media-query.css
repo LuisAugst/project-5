@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 992px){
+@media screen and (min-width: 412px){
     .logo{
         width: 90px;
         padding-top: 20px;
@@ -23,6 +23,7 @@
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1024px){
 
 }
+
