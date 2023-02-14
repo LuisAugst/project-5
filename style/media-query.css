@@ -1,8 +1,7 @@
 @media screen and (min-width: 412px){
     .logo{
         width: 90px;
-        padding-top: 20px;
-        
+        padding-top: 20px;  
     }
 
     .language-btn{
@@ -24,6 +23,21 @@
 }
 
 @media screen and (min-width: 1024px){
+    .logo{
+        width: 130px;
+    }
 
-}
+    .header{
+        background-size: 1024px;
+        background-size: cover;
+    }
+
+    .text1{
+        font-size: 25px;
+    }
+
+    .br1{
+        display: static;
+    }
+    
 

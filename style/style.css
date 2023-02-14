@@ -244,7 +244,7 @@ img {
 .accordion li label {
   display: flex;
   align-items: center;
-  padding: 16px;
+  padding: 15px;
   font-size: 1.2em;
   background: #303030;
   margin-bottom: 1px;
@@ -252,11 +252,12 @@ img {
   position: relative;
 }
 
-#lb1 label::after {
+
+label.lb1:after {
   content: "+";
-  font-size: 34px;
   position: absolute;
   right: 20px;
+  font-size: 34px;
   transition: tranform 0, 5s;
 }
 
@@ -392,4 +393,42 @@ a {
 
 .footer a:hover{
     text-decoration: underline;
+}
+
+.btn4{
+  padding-left: 23px;
+  transform: translateY(-135px);
+}
+
+.btn4 > button{
+  border: 1px solid;
+  outline: 0;
+  background-color: transparent;
+  border-color: #737373;
+  color: #737373;
+  padding: 17px 15px;
+  padding-left: 45px;
+  font-size: 17px;
+  border-radius: 1px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn4 img{
+  width: 10px;
+  margin-left: 30px;
+  transform: translateX(8px);
+  color: #737373;
+}
+
+.ftext{
+  color: #737373;
+  padding-left: 33px;
+  margin-top: -110px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.br1{
+  display: static;
 }
