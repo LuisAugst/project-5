@@ -20,16 +20,26 @@
     .header{
         background-size: 992px;
     }
+
+    .br1{
+        display: inline;
+    }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 670px){
+    #header button{
+        height: 35px;
+    }
+
     .logo{
-        width: 130px;
+        width: 110px;
+        padding-bottom: 55px;
     }
 
     .header{
         background-size: 1024px;
         background-size: cover;
+        margin-bottom: 185px;
     }
 
     .text1{
@@ -37,7 +47,106 @@
     }
 
     .br1{
-        display: static;
+        display: inline;
+    }
+
+    .text2{
+        font-size: 19px;
+    }
+
+    #t2{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .text2 #input{
+        width: 510px;
+        margin-left: 7%;
+    }
+
+    .text2 label{
+        margin-left: 8.6%;
+    }
+
+    .btn2 button{
+        margin-top: 115px;
+        margin-right: 1px;
+    }
+
+    #br2{
+        display: none;
+    }
+
+    #feature1 h1{
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    #feature2{
+        padding-top: 72px;
+        font-size: 24px;
+    }
+
+    #h3-2{
+        font-size: 20px;
+    }
+
+    #feature3 h1{
+        font-size: 38px;
+        padding-top: 24px;
+    }
+
+    #feature3 h3{
+        font-size: 20px;
+    }
+
+    #feature4 h1{
+        margin-top: 15px;
+        font-size: 38px;
+    }
+
+    #feature4 h3{
+        font-size: 22px;
+    }
+
+    .faq h2{
+        font-size: 38px;
+        margin-left: -30px;
+        padding-top: 25px;
+    }
+
+    .accordion{
+        width: 620px;
+        padding-left: 80px;
+        padding-bottom: 40px;
+        
     }
     
+    .accordion li label{
+        height: 60px;
+    }
 
+    .input2{
+        margin-top: -29px;
+        padding-left: 90px;
+    }
+
+    .input2 p{
+        font-size: 18px;
+        margin-left: -90px;
+    }
+
+    #iemail2{
+        width: 496px;
+        height: 45px;
+    }
+
+    .btn3{
+        margin-bottom: 24px;
+    }
+
+    .footer ul{
+        column-count: 3;
+        margin-top: 25px;
+    }
+}

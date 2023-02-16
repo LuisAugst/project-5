@@ -195,7 +195,7 @@ img {
 }
 
 #feature1 {
-  margin-bottom: -80px;
+  margin-bottom: -92px;
 }
 
 #feature2 {
@@ -430,5 +430,5 @@ a {
 }
 
 .br1{
-  display: static;
+  display: none;
 }
