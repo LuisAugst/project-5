@@ -24,6 +24,10 @@
     .br1{
         display: inline;
     }
+
+    #br2{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 670px){
@@ -61,16 +65,21 @@
 
     .text2 #input{
         width: 510px;
-        margin-left: 7%;
+        max-width: 510px;
+        margin-left: 75px;
+        position: absolute;
     }
 
     .text2 label{
-        margin-left: 8.6%;
+        margin-left: 86px;
+        margin-top: 56px;
     }
 
-    .btn2 button{
-        margin-top: 115px;
+    .btn2 > button{
+        margin-top: 90px;
         margin-right: 1px;
+        border-radius: 2px;
+        height: 60px;
     }
 
     #br2{
@@ -148,5 +157,55 @@
     .footer ul{
         column-count: 3;
         margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 820px){
+    .header{
+        position: static;
+    }
+
+    .logo{
+        width: 130px;
+        margin-top: 45px;
+    }
+
+    #header{
+        margin-top: -35px;
+        margin-bottom: 213px;
+    }
+
+    #t1{
+        padding-bottom: 18px;
+    }
+
+    .text2 #input{
+        width: 450px;
+        max-width: 420px;
+        height: 60px;
+        margin-top: 18px;
+        position: static;
+        margin-left: 280px;
+    }
+
+    .text2 label{
+        font-size: 15.3px;
+        margin-top: -7px;
+        padding-left: 205px;
+    }
+
+    .btn2 > button{
+        margin-left: 158px;
+        margin-top: 37px;
+        height: 60px;
+        width: 190px;
+        font-size: 24px;
+        cursor: pointer;
+        n
+    }
+
+    .feature img{
+        display: grid;
+        align-content: space-around;
     }
 }
