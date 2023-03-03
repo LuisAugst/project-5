@@ -28,9 +28,17 @@
     #br2{
         display: none;
     }
+
+    #br3{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 670px){
+    body{
+        width: 800px !important; 
+    }
+
     #header button{
         height: 35px;
     }
@@ -38,6 +46,11 @@
     .logo{
         width: 110px;
         padding-bottom: 55px;
+        margin-top: 60px;
+    }
+
+    nav{
+        margin-top: -60px;
     }
 
     .header{
@@ -64,22 +77,27 @@
     }
 
     .text2 #input{
-        width: 510px;
-        max-width: 510px;
+        width: 510px !important;
         margin-left: 75px;
         position: absolute;
     }
 
     .text2 label{
         margin-left: 86px;
-        margin-top: 56px;
+        position: absolute;
+    }
+
+    .btn2{
+        width: 100;
     }
 
     .btn2 > button{
-        margin-top: 90px;
-        margin-right: 1px;
+        width: 130px;
+        margin-top: 10px;
         border-radius: 2px;
         height: 60px;
+        font-size: 17px;
+        position: sticky;
     }
 
     #br2{
@@ -128,7 +146,6 @@
         width: 620px;
         padding-left: 80px;
         padding-bottom: 40px;
-        
     }
     
     .accordion li label{
@@ -137,12 +154,12 @@
 
     .input2{
         margin-top: -29px;
-        padding-left: 90px;
+        padding-left: 100px;
     }
 
     .input2 p{
         font-size: 18px;
-        margin-left: -90px;
+        margin-left: -220px;
     }
 
     #iemail2{
@@ -154,6 +171,14 @@
         margin-bottom: 24px;
     }
 
+    .btn3 button{
+        margin-left: 20px;
+    }
+
+    .footer{
+        width: 800px;
+    }
+
     .footer ul{
         column-count: 3;
         margin-top: 25px;
@@ -161,18 +186,32 @@
 }
 
 @media screen and (min-width: 820px){
+    body{
+        width: fit-content !important;
+        background-size: cover;
+    }
     .header{
         position: static;
     }
 
+    nav{
+        padding-top: 30px;
+        margin-right: 120px;
+
+    }
+
+    .language-btn button{
+        padding-right: 120px;
+    }
+
     .logo{
-        width: 130px;
-        margin-top: 45px;
+        width: 140px;
+        margin-left: 50px;
     }
 
     #header{
         margin-top: -35px;
-        margin-bottom: 213px;
+        margin-bottom: -20px;
     }
 
     #t1{
@@ -185,27 +224,208 @@
         height: 60px;
         margin-top: 18px;
         position: static;
-        margin-left: 280px;
+        margin-left: 530px;
     }
 
     .text2 label{
         font-size: 15.3px;
         margin-top: -7px;
-        padding-left: 205px;
+        padding-left: 460px;
+    }
+
+    #btn2{
+        margin-top: -70px;
+        height: 100px;
     }
 
     .btn2 > button{
-        margin-left: 158px;
-        margin-top: 37px;
-        height: 60px;
-        width: 190px;
+        position: absolute;
+        left: 28%;
+        padding-top: 15px;
+        margin-left: 492px;
+        width: 200px;
+        padding-bottom: 45px;
         font-size: 24px;
         cursor: pointer;
-        n
+        border-radius: 2px;
     }
 
-    .feature img{
-        display: grid;
-        align-content: space-around;
+    .feature{
+        height: 787px;
+    }
+
+    .feature h1{
+        transform: translateY(100px);
+        text-align: left;
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .feature h3{
+        text-align: left;
+        transform: translateY(90px);
+        font-size: 25px;
+    }
+
+    .feature>.img{
+        margin-top: -80px;
+        margin-bottom: -38px;
+        transform: translateY(-120px);
+    }
+    
+    .img>img{
+        float: right;
+        height: 400px;
+        width: 540px;
+    }
+
+    #feature1 h1{
+        padding-left: 120px;
+        transform: translateY(190px);
+    }
+
+    #feature1 h3{
+        padding-left: 120px;
+        transform: translateY(190px);
+    }
+
+    #img1{
+        margin-right: 300px;
+        padding-left: 140px;
+        padding-top: 90px;
+        height: 500px;
+        width: 700px;
+    }
+
+    #feature2 h1{
+        padding-left: 840px;
+        transform: translateY(190px);
+    }
+
+    #feature2 h3{
+        padding-left: 840px;
+        transform: translateY(190px);
+        font-size: 25px;
+    }
+
+    #img2{
+        margin-left: 140px;
+        padding-top: 90px;
+        height: 540px;
+        width: 600px;
+        float: left;
+        overflow-y: hidden;
+    }
+
+    #feature3 h1{
+        padding-left: 90px;
+        transform: translateY(190px); 
+    }
+
+    #feature3 h3{
+        padding-left: 90px;
+        font-size: 25px;
+        transform: translateY(190px); 
+    }
+
+    #img3{
+        margin-top: 40px;
+        margin-right: 80px;
+        width: 800px;
+        height: 540px;
+    }
+
+    #feature4 h1{
+        padding-left: 840px;
+        font-size: 50px;
+        transform: translateY(190px);
+    }
+
+    #feature4 h3{
+        padding-left: 840px;
+        transform: translateY(190px);
+    }
+
+    #img4{
+        float: left;
+        margin-left: 200px;
+        height: 500px;
+        width: 550px;
+    }
+
+    .faq h2{
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .faq ul{
+        margin-left: 100px;
+        width: 1580px;
+        font-size: 20px;
+    }
+
+    .accordion li label{
+        height: 80px;
+        padding-left: 30px;
+    }
+
+    label.lb1:after{
+        font-size: 60px;
+    }
+
+    .input2 p{
+        font-size: 20px;
+        margin-left: -140px;
+    }
+
+    .input2 .search, input{
+        width: 450px;
+        max-width: 420px;
+        height: 60px !important;
+        margin-top: 18px;
+        position: static;
+        margin-left: 560px;
+    }
+
+    .input2 label{
+        margin-left: 570px;
+        transform: translateY(-40px);
+    }
+
+    .btn3 button{
+        margin-left: 375px;
+        width: 180px;
+        height: 60px;
+        margin-top: -72px;
+    }
+
+    .footer{
+        width: 2000px;
+    }
+
+    .footer p{
+        margin-left: 170px;
+    }
+
+    .footer ul{
+        column-count: 4;
+        margin-left: 170px;
+        margin-top: 1px;
+    }
+
+    .btn4{
+        margin-left: 170px;
+    }
+
+    .ftext{
+        margin-left: 170px;
+    }
+
+    .br2{
+        display: none;
+    }
+
+    #br3{
+        display: inline-block;
     }
 }
